@@ -1,0 +1,14 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+
+<view class="word-content">
+  <view class="word-name">{{word.name}}</view>
+  <view class="word-meaning-list" wx:for="{{word.meanings}}">
+    {{item.pos}}
+    {{item.meaning}}
+  </view>
+</view>
+
+<view class="foot-search">search bar</view>
+</view>
+

@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/search/search",
+    "pages/memo/memo",
+    "pages/settings/settings",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "记生词",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/search/search",
+      "text": "查生词",
+      "iconPath": "icon/search.png",
+      "selectedIconPath": "icon/search-select.png"
+    },
+    {
+      "pagePath": "pages/memo/memo",
+      "text": "记生词",
+      "iconPath": "icon/memory.png",
+      "selectedIconPath": "icon/memory-select.png"
+    },
+    {
+      "pagePath": "pages/settings/settings",
+      "text": "设置",
+      "iconPath": "icon/me.png",
+      "selectedIconPath": "icon/me-select.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
